@@ -2,12 +2,21 @@
 	import '../app.css';
 </script>
 
-<nav class="bg-gray-800 p-4 text-white">
+<nav
+	class="sticky top-0 z-50 bg-opacity-80 bg-gradient-to-r from-black via-gray-900 to-gray-800 p-4 text-white backdrop-blur-lg backdrop-filter"
+>
 	<ul class="flex space-x-4">
-		<li><a href="/" class="hover:text-gray-400">Home</a></li>
-		<li><a href="/about" class="hover:text-gray-400">About Us</a></li>
-		<li><a href="/services" class="hover:text-gray-400">Our Services</a></li>
-		<li><a href="/contact" class="hover:text-gray-400">Contact Us</a></li>
+		<li><a href="#home" class="transition-colors duration-300 hover:text-gray-400">Home</a></li>
+		<li>
+			<a href="#about" class="transition-colors duration-300 hover:text-gray-400">About Us</a>
+		</li>
+		<li>
+			<a href="#services" class="transition-colors duration-300 hover:text-gray-400">Our Services</a
+			>
+		</li>
+		<li>
+			<a href="#contact" class="transition-colors duration-300 hover:text-gray-400">Contact Us</a>
+		</li>
 	</ul>
 </nav>
 

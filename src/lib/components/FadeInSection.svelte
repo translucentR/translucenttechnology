@@ -16,7 +16,7 @@
 				});
 			},
 			{
-				rootMargin: '0px 0px -700px 0px', // Adjust the top and bottom margins as needed
+				rootMargin: '0px 0px -700px 0px',
 				threshold: Array.from({ length: 100 }, (_, i) => i / 100)
 			}
 		);
